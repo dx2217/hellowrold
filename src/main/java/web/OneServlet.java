@@ -16,6 +16,7 @@ public class OneServlet extends HttpServlet{
 		context.setAttribute("context", "contextvalue");
 		HttpSession session = request.getSession();
 		session.setAttribute("session", "sessionvalue");
+		System.out.println(".......");
 	}
 
 }
